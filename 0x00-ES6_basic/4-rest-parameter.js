@@ -1,4 +1,4 @@
-export default function returnHowManyArguments (...theArgs) {
+export default function returnHowManyArguments(...theArgs) {
   let counter = 0;
   for (const x of theArgs) {
     if (x) {
